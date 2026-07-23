@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form action="\server">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="enter the name" name="username">
+        </div>
+        <div>
+            <label for="age">enter age</label>
+            <input type="number" id="age" placeholder="enter your age" name="age">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+    <hr />
+    <form action="https://www.linkedin.com/feed/">
+        <input type="text" name="feed" placeholder="Search LinkedIn">
+        <button type="submit">Search</button>
+    </form>
+    <hr />
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Search Google">
+        <button type="submit">Search</button>
+    </form>
+    <form>
+        <label for="age">i am 18+:</label>
+        <input type="checkbox" id="age">
+    </form>
+    <hr />
+    <form action="\server">
+        <!-- radio buttons -->
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple">Apple</label>
+        <br>
+        <input type="radio" id="banana" name="fruit" value="banana">
+        <label for="banana">Banana</label>
+        <br>
+        <input type="radio" id="cherry" name="fruit" value="cherry">
+        <label for="cherry">Cherry</label>
+        <button type="submit">Submit</button>
+
+    </form>
+    <!--dropdown-->
+
+    <div>
+        <label for="profession">Profession:</label>
+        <select id="profession" name="profession">
+            <option>select your option</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <button type="submit">submit</button>
+    </div>
+    <div>
+        <label for="feedback">please provide your feedback:</label>
+        <textarea id="feedback" name="feedback" placeholder="enter your feedback" rows="12" column="2"></textarea>
+        <button type="submit">submit</button>
+
+</body>
+
+</html>
