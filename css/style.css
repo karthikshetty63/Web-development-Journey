@@ -1,0 +1,72 @@
+/* /* h1 {
+    color: #333;
+    background-color: aqua;
+}
+
+h2 {
+    color: #f31f1f;
+    background-color: rgb(78, 7, 149);
+}
+
+button {
+    color: darkgoldenrod;
+    background-color: rgb(78, 7, 149);
+} */
+/* .Heading {
+    color: rgb(20, 201, 10);
+
+}
+
+.paragraph {
+    background-color: black;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: rgb(13, 13, 182);
+} */
+.paper1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: yellow underline;
+}
+
+.date {
+    color: black;
+    text-align: end;
+}
+
+h3 {
+    text-align: start;
+    color: black;
+    text-decoration: overline;
+}
+
+.news {
+    color: black;
+    text-align: start;
+    background-color: rgb(216, 216, 57);
+    font-weight: 400;
+    text-decoration: red line-through;
+}
+
+.date1 {
+    color: black;
+    text-align: end;
+    font-weight: normal;
+}
+
+.news1 {
+    color: black;
+    text-align: start;
+    background-color: rgb(216, 216, 57);
+    font-weight: 400;
+}
+
+.paper2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
