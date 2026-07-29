@@ -1,0 +1,31 @@
+* {
+    font-family: "courier new"
+}
+
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    color: white;
+    background-color: #b92b27;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+p a {
+    color: #a46239
+}
+
+p+h3 {
+    color: #b92b27;
+}
