@@ -57,3 +57,36 @@ else if (price === 50) {
 else {
     console.log("invalid size");
 }
+
+let day = "monday";
+if (day === "monday") {
+    console.log("working day");
+    {
+        if (day === "tuesday") {
+            console.log("lets party");
+
+        }
+        else if (day === "wednesday") {
+            console.log("lets read");
+        }
+        else if (day === "thursday") {
+            console.log("lets code");
+        }
+    }
+}
+else {
+    console.log("let chill");
+}
+
+if (day === "monday" || day === "tuesday" || day === "wednesday" || day === "thursday" || day === "friday") {
+    console.log("oh god its working day");
+}
+
+let name = "good string"
+if (name[0] === "a" && name.length > 3) {
+    console.log(" good ")
+
+}
+else {
+    console.log("bad")
+}
