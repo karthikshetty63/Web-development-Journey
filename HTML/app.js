@@ -135,12 +135,12 @@
 //     default:
 //         console.log("rest day");
 // }
-// // alert("hey somthing is wrong!🤷‍♂️");
-// // console.error("hey somthing is wrong!🤷‍♂️");
-// // let k = prompt("enter your name");
-// // console.log(k);
-// // let m = confirm("are you sure?");
-// // console.log(m);
+// alert("hey somthing is wrong!🤷‍♂️");
+// console.error("hey somthing is wrong!🤷‍♂️");
+// let k = prompt("enter your name");
+// console.log(k);
+// let m = confirm("are you sure?");
+// console.log(m);
 // let s = prompt("enter your name");
 // let p = prompt("are you sure last name?");
 // let h = `the name is :${s + " " + p}`;

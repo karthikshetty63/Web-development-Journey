@@ -1,0 +1,33 @@
+let student = ["karthik", "sudeep", "sai"];
+console.log(student[1]);
+console.log(student[0] = "karthik kumar");
+student.push("chintu");
+student.pop("sudeep");
+student.unshift("raju");
+let month = [`january`, `july`, `march`, `agust`];
+month.shift();
+month.shift();
+month.unshift("june");
+month.unshift("july");
+console.log(month.indexOf("july"));
+console.log(month.includes("december"));
+let num = [1, 2, 3, 4, 5];
+let num1 = [6, 7, 8, 9, 10];
+console.log(num);
+console.log(num1);
+let num2 = num.concat(num1);
+console.log(num2);
+console.log(num2.sort())
+// console.log(num2.reverse());
+// console.log(num2);
+console.log(num2.slice(5));
+let colors = ["red", "green", "blue", "yellow"];
+console.log(colors.splice(0, 1, "white"));
+console.log(colors.sort());
+let square = [1, 3, 6, 2, 5];
+console.log(square.sort());
+let num3 = [100, 50, 77, 10];
+console.log(num3.sort((a, b) => a - b));
+let month1 = ["january", "july", "march", "agust"];
+console.log(month1.slice(0, 2, "july", "june"));
+
